@@ -19,11 +19,12 @@ body {
 }
 
 .qr-box-container {
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 20px;
     background-color: #fff;
-    max-width: 340px;
+    max-width: 310px;
     margin: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .qr-img-container > * {
@@ -32,7 +33,7 @@ body {
 }
 
 .qr-box-content {
-    padding: 10px;
+    padding: 15px 0;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -42,7 +43,7 @@ body {
     color: hsl(220, 15%, 55%);
     font-size: 15px;
 }
-.qr-box-content span{
+.qr-box-content h1{
     font-size: 23px;
     font-weight: 700;
 }
